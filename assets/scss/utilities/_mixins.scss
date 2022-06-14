@@ -1,0 +1,28 @@
+@mixin hero {
+    @extend %position_hero;
+    background: $bg-color-jelly-bean;
+    font-family: $font-text;
+    font-size: $font-size-hero;
+    color: white;
+}
+@mixin card-header1 {
+    @extend %card_header;
+    background: $bg-color-granete;
+    font-family: $font-text;
+    color: white;
+}
+@mixin card-header2 {
+    @extend %card_header;
+    font-family: $font-text;
+}
+@mixin body {
+    @extend %position_body;
+    background: $bg-color-jelly-bean;
+    font-family: $font-text;
+    font-size: $font-size-hero;
+    color: white;
+}
+@mixin card {
+    @extend %section_card;
+
+}

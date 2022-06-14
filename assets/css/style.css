@@ -1,0 +1,211 @@
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+
+.section-footer, .card-header2, .card-header1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.section-button, .section-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.section-logo img {
+  width: 200px;
+  padding-left: 5%;
+}
+
+.section-hero {
+  background: #E56353;
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
+.card-header1 {
+  background: #686963;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.card-header1 img {
+  height: 300px;
+}
+.card-header1 .tex-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  font-size: 30px;
+}
+.card-header1 .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  padding: 10px 20px;
+}
+
+.card-header2 {
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.card-header2 img {
+  height: 300px;
+}
+.card-header2 .tex-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  font-size: 30px;
+}
+.card-header2 .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  padding: 10px 20px;
+}
+
+.section-body {
+  background: #E56353;
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.card-main {
+  font-family: "Raleway", sans-serif;
+}
+.card-main img {
+  height: 300px;
+  padding-top: 50px;
+}
+.card-main .tex-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  font-size: 30px;
+}
+.card-main .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  padding: 10px 20px;
+}
+
+.section-button {
+  background: #E56353;
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.section-button .button {
+  background: white;
+  color: #686963;
+  width: 25%;
+  padding: 5px;
+  margin: 20px;
+}
+
+.section-footer {
+  background: #686963;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  height: 200px;
+}
+.section-footer img {
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
